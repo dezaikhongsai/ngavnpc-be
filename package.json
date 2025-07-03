@@ -4,11 +4,10 @@
   "description": "quản lý khách hàng tiềm năng",
   "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/server.ts",
-    "start": "ts-node ./src/server.ts",
-    "build": "tsc"
-  },
+  "dev": "nodemon ./src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js"
+},
   "author": "Nguyễn Tuấn Anh",
   "license": "ISC",
   "dependencies": {
