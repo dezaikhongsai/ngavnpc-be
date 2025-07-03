@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "quản lý khách hàng tiềm năng",
   "main": "server.ts",
-  "scripts": {
+  "engines": {
+  "node": "22.x"
+},
+"scripts": {
+   "render-postinstall": "npm install --include=dev",
   "dev": "nodemon ./src/server.ts",
   "build": "tsc",
   "start": "node dist/server.js"
